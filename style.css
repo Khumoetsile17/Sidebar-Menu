@@ -27,9 +27,6 @@
   backdrop-filter: blur(5px);
 
   /*Space between user and logout */
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 
   /*For space between user and content and logoutdisplay: flex;
   justify-content: space-between;

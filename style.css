@@ -8,7 +8,7 @@
 .header {
   width: 100%; /*full width too*/
   height: 100vh; /*full pg*/
-  background-image: url(backgroundImage.jpg);
+  background-image: url(images/backgroundImage.jpg);
   background-position: center;
   background-size: cover; /*cover the whole page*/
 }
@@ -22,9 +22,14 @@
   left: 0;
   padding: 30px 15px; /*Put **/
 
-  /*Sidebar menu backgroung and making it blur */
+  /*Sidebar menu background and making it blur */
   background: rgba(165, 118, 158, 0.2);
   backdrop-filter: blur(5px);
+
+  /*Space between user and logout */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   /*For space between user and content and logoutdisplay: flex;
   justify-content: space-between;
@@ -43,6 +48,7 @@
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 /*
@@ -53,7 +59,7 @@
 
 .user p {
   font-size: 15px;
-  /*not bold 4 now font-weight: 600;*/
+  /*not bold 4 now font-weight: 600;   //That khumoetsile font*/
 
   white-space: nowrap; /*straignt linewhite-space: nowrap;*/
 }
@@ -62,6 +68,7 @@
   width: 40px;
   border-radius: 50%; /*circle*/
   margin: auto;
+  margin-right: 10px; /*space betwn image and text*/
 }
 ul {
   list-style: none;

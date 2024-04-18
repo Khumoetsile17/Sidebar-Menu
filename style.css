@@ -15,7 +15,7 @@
 
 .sideNav {
   /*to hide sideBar*/
-  width: 250px;
+  width: 110px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -31,15 +31,14 @@
   /*For space between user and content and logoutdisplay: flex;
   justify-content: space-between;
   flex-direction: column;;*/
-  /*transition: width 0.5s;*/
+  transition: width 0.5s;
 }
 
 .user {
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  /*width: 60px;*/
-  /*overflow: hidden;*/
+  width: 60px;
+  overflow: hidden;
   font-size: 12px;
   padding: 10px;
   border-radius: 8px;
@@ -48,11 +47,10 @@
   display: flex;
 }
 
-/*
-.user div {
-  hidding content of user
+/*hidding content of user*/
+.user nav {
   display: none;
-}*/
+}
 
 .user p {
   font-size: 15px;
@@ -89,9 +87,9 @@ ul li img {
 ul li p {
   white-space: nowrap;
   /*hidding content of user*/
-  /*display: none;*/
+  display: none;
 }
-/*Adding hower
+/*Adding hower*/
 
 .sideNav:hover {
   width: 250px;
@@ -103,4 +101,3 @@ ul li p {
 .sideNav:hover ul li p {
   display: block;
 }
-*/
